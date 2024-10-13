@@ -4,14 +4,16 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto';
 }
 
 #logo {
-    margin-left: 50px;
+    display: inline-block;
+    margin-left: 100px;
     font-size: 24px;
     color: #f9faf8;
-    text-shadow: 3px 6px  rgba(0, 0, 0, 0.5);
 }
 
 #home {
@@ -59,10 +61,14 @@ a:hover {
     text-decoration-color: wheat;
 }
 
-.headline {
+.headline { 
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px 40px;
+    background-color: #1f29374c;
 }
 
 .sign-up {
@@ -91,14 +97,14 @@ a:hover {
 }
 
 nav {
-    margin-right: 50px;
+    margin-right: 100px;
     display: flex;
     justify-content: right;
 }
 
 .container {
     padding: 0 100px;
-    margin-top: 80px;
+    margin-top: 140px;
     display: flex;
     gap: 90px;
 }
@@ -107,4 +113,104 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.info-container {
+    height: 400px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.image {
+    height: 240px;
+    width: 210px;
+    border-radius: 9px;
+}
+.img-text {
+    padding-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+.quote-container {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.credit {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    color: black;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 100%;
+}
+
+.sign-box {
+    color: #e5e7eb;
+    border-radius: 9px;
+    height: 130px;
+    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 150px;
+}
+
+.sign-up-2 {
+    color: #e5e7eb;
+    border-radius: 7px;
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    padding: 6px;
+    width: 90px;
+}
+
+.sign-up-2:hover {
+    cursor: pointer;
+    background-color: #2562c4;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
