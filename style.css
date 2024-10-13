@@ -6,11 +6,12 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 #logo {
-    display: inline-block;
     margin-left: 100px;
     font-size: 24px;
     color: #f9faf8;
@@ -65,12 +66,12 @@ a:hover {
     top: 0;
     left: 0;
     padding: 15px;
-    margin-top: 20px;
+    padding-top: 40px;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: #1f29374c;
+    background-color: #1f29378b;
 }
 
 .sign-up {
@@ -159,7 +160,7 @@ h2 {
 }
 
 .quote {
-    margin-top: 18px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     text-align: center;
