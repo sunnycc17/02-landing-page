@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
-    overflow-x: hidden;
 }
 
 #logo {
@@ -127,7 +127,7 @@ h2 {
     padding: 30px 0;
 }
 .info-container {
-    height: 400px;
+    height: 480px;
     width: 100%;
     padding-top: 50px;
     display: flex;
@@ -160,7 +160,8 @@ h2 {
 }
 
 .quote {
-    margin-top: 60px;
+    width: 1100px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
